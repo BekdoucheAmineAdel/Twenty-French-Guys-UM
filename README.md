@@ -44,27 +44,27 @@ For details on the original game and its variations, visit twenty.frenchguys.net
 Below is a partial file/folder structure (see the repository on GitHub for the complete list):
 ```
 .
-├── Icon.ico						# Game icon
+├── Icon.ico                        # Game icon
 ├── README.md
 ├── Twenties a game of numbers.cbp
 ├── Twenties a game of numbers.depend
 ├── Twenties a game of numbers.layout
-├── audio_controller/                   # Audio control source files
-├── background.wav						          # Game sound
-├── bin/                                # Compiled binaries
-├── fusion.wav							            # Adding squares sound
+├── audio_controller/               # Audio control source files
+├── background.wav                  # Game sound
+├── bin/                            # Compiled binaries
+├── fusion.wav                      # Adding squares sound
 ├── game_settings.cpp
 ├── game_settings.h
-├── grid_src_files/                     # Grid/game logic source files
-├── hs.txt								              # Highest score is stored in this file
+├── grid_src_files/                 # Grid/game logic source files
+├── hs.txt                          # Highest score is stored in this file
 ├── icon.rc
-├── level_manager_src_files/            # Level management logic
-├── loaders_src_files/                  # File/data loading logic
+├── level_manager_src_files/        # Level management logic
+├── loaders_src_files/              # File/data loading logic
 ├── main.cpp
-├── obj/                                # Object files
-├── square_src_files/                   # Tile/square mechanics
-├── squares.bmp							            # Games graphics
-├── user_interactions_src_files/        # UI/user input logic
+├── obj/                            # Object files
+├── square_src_files/               # Tile/square mechanics
+├── squares.bmp                     # Game graphics
+├── user_interactions_src_files/    # UI/user input logic
 ```
 ## Technical Details
 - Languages: C++, C
