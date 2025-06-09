@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Twenties a game of numbers" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Twenties a game of numbers" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/msys64/mingw64/include" />
+				</Compiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add library="freeglut" />
+					<Add library="sndfile" />
+					<Add library="portaudio" />
+					<Add directory="C:/msys64/mingw64/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Twenties a game of numbers" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opengl32" />
+					<Add library="freeglut" />
+					<Add library="sndfile" />
+					<Add library="portaudio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Icon.ico" />
+		<Unit filename="audio_controller/audio_player.cpp" />
+		<Unit filename="audio_controller/audio_player.h" />
+		<Unit filename="game_settings.cpp" />
+		<Unit filename="game_settings.h" />
+		<Unit filename="grid_src_files/grid.cpp" />
+		<Unit filename="grid_src_files/grid.h" />
+		<Unit filename="hs.txt" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="level_manager_src_files/game_manager.cpp" />
+		<Unit filename="level_manager_src_files/game_manager.h" />
+		<Unit filename="level_manager_src_files/level_manager.cpp" />
+		<Unit filename="level_manager_src_files/level_manager.h" />
+		<Unit filename="level_manager_src_files/score.cpp" />
+		<Unit filename="level_manager_src_files/score.h" />
+		<Unit filename="loaders_src_files/imageloader.cpp" />
+		<Unit filename="loaders_src_files/imageloader.h" />
+		<Unit filename="loaders_src_files/textureloader.cpp" />
+		<Unit filename="loaders_src_files/textureloader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="square_src_files/adder.cpp" />
+		<Unit filename="square_src_files/adder.h" />
+		<Unit filename="square_src_files/chain.cpp" />
+		<Unit filename="square_src_files/chain.h" />
+		<Unit filename="square_src_files/collision_detector.cpp" />
+		<Unit filename="square_src_files/collision_detector.h" />
+		<Unit filename="square_src_files/gravity.cpp" />
+		<Unit filename="square_src_files/gravity.h" />
+		<Unit filename="square_src_files/square.cpp" />
+		<Unit filename="square_src_files/square.h" />
+		<Unit filename="squares.bmp" />
+		<Unit filename="user_interactions_src_files/mouse_handler.cpp" />
+		<Unit filename="user_interactions_src_files/mouse_handler.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
